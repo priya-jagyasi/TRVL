@@ -4,7 +4,6 @@ import Cards from '../Cards';
 import Footer from '../Footer';
 import HeroSection from '../HeroSection';
 
-import Demo1 from '../CreateMap';
 // import '../CreateMap.css';
 
 function Home() {
