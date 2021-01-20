@@ -1,0 +1,15 @@
+.map {
+  display: flex;
+  flex-flow: column;
+  align-items: center;  
+  /* margin: 0 auto; */
+  border-radius: 10px;
+  flex: 1;
+
+}
+.newStyle {
+  width: 20%;
+  margin-left: 40%;
+  overflow: hidden;
+  height: 300px;
+}
