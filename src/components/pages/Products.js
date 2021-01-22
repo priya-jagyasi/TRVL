@@ -4,7 +4,7 @@ import '../../App.css';
 export default function Products() {
     return (
         
-            <h1 className="products">PRODUCT</h1>
+            <h1 className="products">PRODUCTS</h1>
         
     )
 }

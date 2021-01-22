@@ -42,10 +42,10 @@ function Cards() {
                     </ul>
                     </div>
                     <div className="newStyle">
-                    <div className='map'>
+                    {/* <div className="map"> */}
                         <Demo1/>
                         </div>
-                    </div>
+                    {/* </div> */}
                 </div>              
             </div>
             

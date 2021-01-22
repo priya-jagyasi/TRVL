@@ -2,11 +2,7 @@ import React, { Component } from "react";
 import { Map, GoogleApiWrapper, Marker  } from 'google-maps-react';
 import './CreateMap.css';
 
-const mapStyles = {
-  width: '100%',
-  height: '30%',
-  
-};
+
 
 
 class Demo1 extends Component {
@@ -14,7 +10,6 @@ class Demo1 extends Component {
 
     super();
     this.state = {
-      name: "React",
       latitude: 0,
       longitude:0
     };
@@ -35,12 +30,13 @@ class Demo1 extends Component {
 
   render() {
     return (
+      // <div className='fixheight'>
       <div className="map">
         
         <Map
           google={this.props.google}
           zoom={14}
-          style={mapStyles}
+          containerStyle={{height: '350px'}}
           center={{
             lat: this.state.latitude,
             lng: this.state.longitude
@@ -51,8 +47,29 @@ class Demo1 extends Component {
           name={'Pune'}
           position={{lat: this.state.latitude, lng: this.state.longitude}}
         />
+        <Marker
+          onClick={this.onMarkerClick}
+          name={'Pune'}
+          position={{lat: '22.0898417', lng: '82.1529226'}}
+        />
+        <Marker
+          onClick={this.onMarkerClick}
+          name={'Pune'}
+          position={{lat: '22.0717948', lng: '82.1474219'}}
+        />
+        <Marker
+          onClick={this.onMarkerClick}
+          name={'Pune'}
+          position={{lat: '22.0694197', lng: '82.1356419'}}
+        />
+        <Marker
+          onClick={this.onMarkerClick}
+          name={'Pune'}
+          position={{lat: '22.0696693', lng: '82.1829886'}}
+        />
         </Map>
-      </div>
+       </div>
+       
     );
   }
 }

@@ -9,3 +9,16 @@ export default function SignUp() {
     )
 }
 
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import SignUpContainer from "src/components/SignUpContainer"
+// import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
+// // import './index.css'
+
+// export default function SignUp(){
+//   <MuiThemeProvider>
+//     <SignUpContainer />
+//   </MuiThemeProvider>
+// }
+// ;
+

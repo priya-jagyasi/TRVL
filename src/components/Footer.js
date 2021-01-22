@@ -48,7 +48,7 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
+            <Link to='/facebook.com'>Facebook</Link>
             <Link to='/'>Youtube</Link>
             <Link to='/'>Twitter</Link>
           </div>
@@ -62,21 +62,21 @@ function Footer() {
                </div>
                <small className="website-rights">TRVL 2020</small>
                <div className="social-icons">
-                   <Link to="/" className="social-icon-link facebook" target="_blank" aria-label="Facebook">
+                   <a href="https://www.facebook.com" className="social-icon-link facebook" target="_blank" rel="noreferrer" aria-label="Facebook">
                        <i className="fab fa-facebook-f"></i>
-                   </Link>
-                   <Link to="/" className="social-icon-link instagram" target="_blank" aria-label="Instagram">
+                   </a>
+                   <a href="https://www.instagram.com" className="social-icon-link instagram" target="_blank" rel="noreferrer" aria-label="Instagram">
                        <i className="fab fa-instagram"></i>
-                   </Link>
-                   <Link to="/" className="social-icon-link youtube" target="_blank" aria-label="YouTube">
+                   </a>
+                   <a href="https://www.youtube.com" className="social-icon-link youtube" target="_blank" rel="noreferrer" aria-label="YouTube">
                        <i className="fab fa-youtube"></i>
-                   </Link>
-                   <Link to="/" className="social-icon-link twitter" target="_blank" aria-label="Twitter">
+                   </a>
+                   <a href="https://www.twitter.com" className="social-icon-link twitter" target="_blank" rel="noreferrer" aria-label="Twitter">
                        <i className="fab fa-twitter"></i>
-                   </Link>
-                   <Link to="/" className="social-icon-link linkedin" target="_blank" aria-label="LinkedIn">
+                   </a>
+                   <a href="https://www.linkedin.com" className="social-icon-link linkedin" target="_blank" rel="noreferrer" aria-label="LinkedIn">
                        <i className="fab fa-linkedin"></i>
-                   </Link>
+                   </a>
         
                </div>
                
